@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Program5 {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Biletcim uygulamasına hoşgeldiniz.");
+            System.out.println("Biletlerden sabit ücret olarak 200.25 TL vergi çıkmaktadır.");
+            System.out.println("sırasıyla yetişkin ve çocuk sayısını giriniz ardından şehri giriniz: ");
+            
+            double sabit = 200.25;
+            int yetiskin = scanner.nextInt(); // Yetişkin sayısını int türünde alıyoruz
+            int cocuk = scanner.nextInt(); // Çocuk sayısını int türünde alıyoruz
+            scanner.nextLine(); // Boş satırı temizlemek için
+            
+            String sehir = scanner.nextLine();
+            
+            
+            // Her bilet için 200 TL alıyoruz ve sabit ücreti tek sefer ekliyoruz
+            double toplam = (200 * yetiskin) + (200 * cocuk) + sabit;
+            
+            System.out.println("Yetişkin sayısı: " + yetiskin);
+            System.out.println("Çocuk sayısı: " + cocuk);
+            System.out.println("Toplam ödenecek tutar: " + toplam);
+            System.out.println("Gidilecek şehir: " + sehir);
+        }
+    }
+}
