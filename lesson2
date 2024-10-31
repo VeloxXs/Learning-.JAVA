@@ -1,0 +1,29 @@
+public class ders2{
+    public static void main(String[] args) {
+        // Depşken oluşturma yapacağım
+      /*  int a =4;
+        a=4;
+        a=10;
+        System.out.println(a);
+     */
+    /* int a =5;
+    int b =6;
+    int c =8;
+
+    int toplam = a+b+c;
+    System.out.println(toplam); */
+    
+  /*   int a =5;
+    int b =6;
+    int c =8;
+    int toplam= a+b+c;
+    System.out.println("toplam = " + toplam);
+    */
+
+    int a =10;
+    int b =22;
+    int c= b-6;
+    int toplam = 2*a+b-c;
+    System.out.println("toplam değer = " + toplam);
+    }
+}
