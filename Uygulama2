@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class program4 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Taximetre !!");
+        System.out.println("Gittiğiniz kilometreye göre ücret ödeyeceksiniz !");
+        System.out.println("Kilometre başına 10dolar");
+        System.out.println("Kaç km yolculuk ettiğinizi giriniz: ");
+
+        double km = scanner.nextDouble();
+        double sabitucret = 10;
+        double total = sabitucret*km;
+        System.out.println("Odemeniz gereken toplam tutar: " + total);
+        
+
+    }
+}
