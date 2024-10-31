@@ -1,0 +1,23 @@
+public class ders3ve4 {
+    /**
+   
+     */
+    public static void main(String[] args) {
+      /*   int a =4;
+        System.out.println(Integer.MAX_VALUE);
+        //integerin gosterdigi max veriyi gosteriyor
+        Byte b = 100;
+        System.out.println(Byte.MAX_VALUE);
+        //byte --> short --> int --> long donusumu yapılabilir */
+
+        double x = 5.25;
+        double y= 6.42;
+
+        float z = (float)5.0; 
+        double l = x+y+z;
+        System.out.println(l);
+        // bu sekilde olmaz java kendi cevirme yapamıyor
+        //bu yuzdenfloat z=(float) 5.0 yazarsak degisir.
+        // int --> float --> double seklinde otomatik donusum yapar java
+    }
+}
