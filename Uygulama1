@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class program1 {
+    public static void main(String[] args) {
+        
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("3 tane tam sayi giriniz: ");
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+        
+       
+        int product = a * b * c;
+        System.out.println("girdiğiniz sayilarin çarpimi :" + product);
+     
+     
+
+    }
+}
