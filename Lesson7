@@ -1,0 +1,32 @@
+
+
+public class ders7 {
+    public static void main(String[] args) {
+        
+      /*   
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Lutfen yasınızı giriniz:");
+         int yas = scanner.nextInt();
+         System.out.println("Yaşınız: " +yas);
+    
+        
+      /*try (Scanner scanner = new Scanner(System.in)) {
+        int sayi = scanner.nextInt();
+          System.out.println("sayi: " + sayi);
+        // şimdi yukarıda int  gr dedik adam metin giriyor o zamanda bunu yapcaz
+        /*
+         * if(scanner.hasNextInt()){
+         *   int sayi = scanner.nextInt();
+         * system.out.println("sayı: " +sayı);
+         * }
+         * else{
+         *  system.out.println("Lütfen bir sayı girini  z...");
+         * }
+         */
+    }
+     
+    
+    
+        }
+    
+
