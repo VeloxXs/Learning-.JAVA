@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class program3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Alan hesaplamacıya hoşgeldiniz.");
+        System.out.println("alanını bulmak istediğinizbölgenin uzunluklarını giriniz ");
+        Double x = scanner.nextDouble();
+        Double y = scanner.nextDouble();
+        
+         Double alan = x*y;
+         System.out.println("Bölgenin alanı " + alan);
+        
+    }
+    
+}
