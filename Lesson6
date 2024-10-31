@@ -1,0 +1,22 @@
+public class ders6 {
+    public static void main(String[] args) {
+       /*  int a = 4;
+     //   a = a + 2;// alttaki hali daha kısadır.
+        a += 2; //soldaki a = a+2; nin kısaltılmış halidir.
+      //  a *= 5; //bu ise a = a*5inkısaltılmış halidir
+
+        int b = 20;
+        //   b -= 1; // alttaki dahakısaltılmış halidir
+        b--; //bu b -= 1; in kısaltılmıs halidir
+
+        
+        int c = 7;
+        System.out.println(c++); 
+        // şimdi bi cnin yanına ++ yazdım bide 
+        //sonrasında ++ yazabilirdim ama aralındaki fark sadece şu 
+        //c++ yazarsak o angüncellenmemiş sayıyazdırılır ama ++c yazarsak 
+        //yazdırılacak değer güncel değerdir.
+    */
+    }
+    
+}
