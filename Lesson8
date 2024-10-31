@@ -1,0 +1,43 @@
+/*import java.util.Scanner;
+
+public class ders8 {
+    public static void main(String[] args) {
+        /*  Scanner scanner = new Scanner(System.in); 
+            System.out.println("Lutfen yasinizi giriniz: ");
+            int yas = scanner.nextInt();
+            System.out.println("Bir yazi giriniz");
+            String yazi= scanner.nextLine();
+            System.out.println("yasiniz: " + yas);
+           
+            System.out.println("yazi" + yazi); */
+
+          /*   Scanner scanner = new Scanner(System.in);
+            System.out.println("Lutfen yaşınızı giriniz: ");
+
+            int yas = scanner.nextInt();
+            System.out.println("Yasiniz " + yas);
+    *//*Bu kodda, nextInt() ile yaşı aldıktan sonra nextLine() kullanarak bir metin girmeye çalışırsan sorun oluşur. nextInt() sayıyı okuduktan sonra bir satır sonu karakteri (\n) bırakır ve nextLine() bu boş karakteri okuyarak hemen sonlanır, bu yüzden beklediğin metni kullanıcıdan alamazsın.
+
+Bu sorunu çözmek için, nextInt()'den sonra nextLine() ile satır sonu karakterini temizleyebilirsin.
+
+Düzeltilmiş kod şöyle: */ 
+
+import java.util.Scanner;
+
+public class ders8 {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Lutfen yaşınızı giriniz: ");
+            int yas = scanner.nextInt();
+            
+            // Satır sonunu temizle
+            scanner.nextLine();
+            
+            System.out.println("Bir yazı giriniz: ");
+            String yazi = scanner.nextLine();
+            
+            System.out.println("Yaşınız: " + yas);
+            System.out.println("Yazı: " + yazi);
+        }
+    }
+}
