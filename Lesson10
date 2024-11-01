@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class ders10 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Notunuzu giriniz");
+        int sayi = scanner.nextInt();
+        
+        if ( sayi >= 90 ){
+            System.out.println("Notunuz AA");
+        }else if (sayi >=80) {
+            System.out.println("Notunuz BA");
+        }else
+        System.out.println("Kaldınız ");
+    
+    }
+}
