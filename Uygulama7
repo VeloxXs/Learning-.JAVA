@@ -1,0 +1,27 @@
+
+import java.util.Scanner;
+
+public class program7 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Bir sayı girin ve haftanın hangi gününe denk geldiğini bulun.");
+        int sayi = scanner.nextInt();
+        int kalan = sayi%7;
+        if (kalan == 1){
+            System.out.println("Pazartesi");
+        }else if(kalan == 2){
+            System.out.println("Salı");
+        }else if(kalan == 3){
+            System.out.println("Çarşamba");
+        }else if(kalan == 4){
+            System.out.println("perşembe");
+        }else if(kalan == 5){
+            System.out.println("cuma");
+        }else if(kalan == 6){
+            System.out.println("Cumartesi");
+        }else 
+        System.out.println("pazar");
+    
+    }
+    
+}
