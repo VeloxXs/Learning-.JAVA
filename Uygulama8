@@ -1,0 +1,38 @@
+
+import java.util.Scanner;
+
+public class program8 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Hesap Makinesine Hoşgeldiniz");
+        System.out.println("İlk önce yapılacak işlemi seciniz +1, -2, *3, /4 ");
+        System.out.println("Şimdi işlem yapılacak sayıları giriniz.");
+        int sayi= scanner.nextInt();
+        int sayi1= scanner.nextInt();
+        int sayi2= scanner.nextInt();
+        int sum = sayi1+sayi2;
+        int neg = sayi1-sayi2;
+        int exp = sayi1*sayi2;
+        int bol = sayi1/sayi2;
+
+        switch (sayi){
+            case 1: 
+            System.out.println("Toplama sonucu "  +sum );
+            break;
+            case 2: 
+            System.out.println("Cıkarma sonucu" +neg);
+            break;
+            case 3 :
+            System.out.println("Carpma sonucu " +exp);
+            break;
+            case 4:
+            System.out.println("Bolme sonucu " +bol);
+            break;
+            default:
+            System.out.println("Gecersiz işlem ");
+            break;
+        }
+
+    }
+    
+}
